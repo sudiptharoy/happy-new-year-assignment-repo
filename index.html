@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year_Assignment</title>
+    <style>
+        body{
+            max-width: 1600px;
+            height: 7335px;
+        
+        }
+
+        .happy-new-year{
+            width: 1600px;
+            /* height: 7335px; */
+        }
+
+        /* Banner section */
+
+        .banner{
+            background-image:linear-gradient(to bottom,#070210 1% ,rgba(24, 20, 33, 0)),url('Banner Image.png');
+            background-repeat: no-repeat;
+            width: 1320px;
+            height: 600px;
+            border-radius: 16px;
+            margin: 0px auto;
+            text-align: center;
+            font-family: Merriweather;
+
+        }
+        .pri-heading{
+            color: #FFF;
+            font-size: 40px;
+            font-weight: 400;
+            padding-top: 150px;
+            /* padding-bottom: 0px; */
+        }
+        .main-heading{
+            color: #FFF;
+            font-size: 72px;
+            font-weight: 900;
+            padding: 0px 300px;
+        }
+
+        /* discount section */
+        .discount{
+            margin: 0px auto;
+            text-align: center;
+            font-family: Merriweather;
+        }
+        .caption{
+            font-family: Inter;
+        }
+        #percentage-discound{
+            color: #F00;
+            font-size: 88px;
+            font-weight: 700;
+            margin-top: 150px;
+        }
+        #discount-deals{
+            color: #F00;
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+        #all-categories{
+            color: #070211;
+            font-size: 48px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        .new-year-discount-img{
+            margin-top: 27px;
+            margin-bottom: 100px;
+        }
+        .image-section{
+            margin-right: 100px;
+            padding: 0px;
+        }
+
+        /* new year welcome party section */
+        .new-year-welcome-party{
+            display: flex;
+            background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('Vectorrr.png');
+            background-repeat: no-repeat;
+            margin: auto;
+            width: 1320px;
+            height: 600px;
+            align-items: center;
+            font-family: Inter;
+
+        }
+        .image-section{
+            background-color:transparent;
+        }
+
+        .welcome-party-title{
+            color: #FFF;
+            font-size: 64px;
+            font-weight: 800;
+            width: 60%;
+            padding-left: 120px;
+            margin-bottom: 25px;
+        }
+
+        .more-about-welcome-party{
+            color: #FFF;
+            font-size: 18px;
+            width: 60%;
+            font-weight: 400;
+            padding-left: 120px;
+
+        }
+
+        .welcome-party-join-button{
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            background-color: transparent;
+            border: none;
+            padding-left: 140px;
+            margin-top: 15px;
+
+        }
+
+        /* place , date , time section */
+        .place-date-time{
+            /* background-color: rgb(235, 207, 232); */
+            background-image: linear-gradient(to bottom,rgb(244, 208, 214),white);
+            width: 1320px;
+            height: 482px;
+            text-align: center;
+            margin: 100px auto;
+            border-radius: 16px;
+            font-family: Inter;
+        }
+        .cointainer div{
+            color: #070211;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 26px;
+        }
+        span{
+            color: #F00;
+        }
+
+        .place{
+            padding-top: 100px;
+        }
+        .button-cls{
+            color: #FFF;
+            background-color: #F00;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+
+        /* best-offer-section */
+        .best-offer{
+            display: flex;
+            width: 1320px;
+            height: 464px;
+            align-items: center;
+            margin: 200px auto;
+        }
+        .best-offer-heading{
+            font-family: Inter;
+
+        }
+        .offer-heading{
+            color: #F00;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        .another-heading{
+            color: #070211;
+            font-size: 48px;
+            font-weight: 900;
+            margin: 0px;
+        }
+        .more-about-heading{
+            color: #070211;
+            font-size: 20px;
+            font-weight: 400;
+            width: 380px;
+        }
+        .offer-image-section{
+            margin: 0px auto;
+        }
+        .offer-section-circle{
+            border: 15px solid #F00;
+            border-radius: 463px;
+            width: 463px;
+            height: 463px;
+        }
+        .offer-section-image{
+            border-radius: 364px;
+            width: 400px;
+            height: 400px;
+            margin-top: 33px;
+            margin-left: 33px;
+        }
+        .additional-info{
+            align-items: left;
+            margin-left: 70px;
+        }
+        .year{
+            color: #F00;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .additional-line{
+            width: 276px;
+            color:#070211;
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+        .additional-imgage{
+            margin-top: 30px;
+        }
+
+        /* holiday-section */
+        .holiday-section{
+            width: 1320px;
+            /* height: 1110px; */
+            margin: 100px auto;
+            font-family: Inter;
+
+        }
+
+        .holiday-header{
+            text-align: center;
+            height: 280px;
+
+        }
+        .pri-holiday-header{
+            color: #070211;
+            font-size: 24px;
+            font-weight: 500;
+            /* margin-bottom: 0px; */
+
+        }
+        .main-holiday-section{
+            color: #070211;
+            font-weight: 900;
+            font-size: 72px;
+            margin-top: 5px;
+        }
+
+        .holiday-sale-info{
+            width: 1000px;
+            margin: 28px auto;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        .holiday-image-section{
+
+            /* background-image: url('Rectangle 2.png');
+            background-position: bottom;
+            /* width: 1320px; */
+            margin-top: 40px;
+            height: 650px; 
+            width: 1320px;
+            display: flex;
+            background-image: url('Rectangle 2.png'),url('Rectangle 1.png');
+            background-repeat: no-repeat;
+            background-position: bottom,top right;
+        }
+
+        
+        .discount-image{
+            margin-top: 100px;
+            padding-right: 580px;
+            width: 206.841px;
+            height: 206.841px;
+        }
+
+
+        .gift-box{
+
+        }
+
+
+
+
+
+
+
+
+
+        /* subscribe section */
+        .subscribe-section{
+            background-color:rgba(255, 0, 0, 0.05);
+            width: 1320px;
+            height: 616px;
+            margin: 100px auto;
+            text-align: center;
+            font-family: Merriweather;
+            margin-bottom: 120px;
+        }
+        .mail-image{
+            margin-top: 80px;
+        }
+        .subscribe-title{
+            margin-top: 50px;
+            color: #070211;
+            font-size: 48px;
+            font-weight: 900;
+        }
+        .more-info{
+            margin-top: 22px;
+            width: 900px;
+            font-weight: 400;
+            font-size: 20px;
+            margin-left: 210px;
+            margin-bottom: 48px;
+        }
+        .email-button-class{
+            margin-left: 212px;
+            margin-right: 212px;
+
+        }
+        .input-class{
+            width: 438px;
+            padding: 30px 40px 30px 50px;
+            border-radius: 50px 0px 0px 50px;
+            color: rgba(7, 2, 17, 0.30);
+            font-size: 18px;
+            border: none;
+        }
+        .subscribe-button{
+            padding: 30px 56px 30px 56px;
+            border-radius: 0px 50px 50px 0px;
+            background: #F00;
+            font-size: 18px;
+            border: none;
+            color: #FFF;
+        }
+
+
+        /* footer section */
+        .footer-cls{
+            width: 1600px;
+            height: 609px;
+            background-color: #070211;
+            font-weight: 500;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            
+        }
+        .footer-heading{
+            display: flex;
+            align-items: center;
+        }
+        .text{
+            margin: 120px 140px;
+            width: 380px;
+            margin-bottom: 50px;
+        }
+        /* .contact{
+            margin-left: 1000px;
+            margin-top: 0px;
+            align-items: center;
+            max-height: 40px; 
+        } */
+        .contact{
+            margin-left: 540px;
+        }
+        .mobile{
+            margin-top: 120px;
+            margin-bottom: 5px;
+            
+        }
+        .web-link{
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+        hr{
+            color: gray;
+            width: 1320px;
+            height: 1px;
+        }
+        hr:hover{
+            color: rgb(178, 167, 236);
+        }
+        .footer-link{
+            margin: 48px 630px 48px 630px;
+        }
+        .footer-copyright-claim{
+            display: flex;
+            justify-content: space-between;
+        }
+        .copy-rignt{
+            margin-top: 50px;
+            margin-left: 140px;
+        }
+        .Unsubscribe{
+            margin-top: 50px;
+            margin-right: 140px;
+        }
+
+
+        /* protfolio section */
+        .Portfolio-section{
+            width: 1322px;
+            height: 1000px;
+            font-family: Inter;
+            margin: 0px auto;
+            margin-bottom: 300px;
+        }
+        .portfolio-pri-header{
+            color: #F00;
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        .protfolio-main-header{
+            color: #070211;
+            font-size: 48px;
+            font-weight: 900;
+            margin-top: 0px;
+            margin-bottom: 22px;
+
+        }
+        .more-about-portfolio{
+            width: 896px;
+            color:#070211;
+            font-size: 20px;
+            margin-top: 0px;
+            margin-bottom: 50px;
+
+        }
+        .first-row img{
+            border-radius: 16px;
+            width: 420px;
+            height: 450px;
+            margin: 0px 15px 17px 0px;
+        }
+        .second-row img{
+            border-radius: 16px;
+            width: 420px;
+            height: 450px;
+            margin: 0px 15px 0px 0px;
+        }
+        
+        .first-row img:hover{
+            background-color: #070210;
+            border: 1px solid black;
+            
+            /* box-shadow: #070210; */
+        }
+        .second-row img:hover{
+            background-color: #070210;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <main class="happy-new-year">
+        <section class="banner">
+            <h4 class="pri-heading">Happy New Year</h4>
+            <h2 class="main-heading">New Year Party Celebration</h2>
+        </section>
+
+        <section class="discount">
+            <figure>
+                <figcaption class="caption">
+                    <div id="percentage-discound">65% OFF</div>
+                    <div id="discount-deals">OUR HOLIDAY DEALS ARE BETTER</div>
+                    <div id="all-categories">ALL CATEGORIES</div>
+                </figcaption>
+                <img src="New Year Photo.png" alt="" class="new-year-discount-img">
+            </figure>
+        </section>
+
+        <section class="new-year-welcome-party">
+            <div class="describtion-section">
+                <h2 class="welcome-party-title">Welcome to midnight party</h2>
+                <p class="more-about-welcome-party">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod</p>
+                <button class="welcome-party-join-button">Join Now</button>
+            </div>
+            <div class="image-section">
+                <img src="Group 70.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="place-date-time">
+            <div class="cointainer">
+                <div class="place"><span>Place:</span> New Park Hotel</div>
+                <div class="date"><span>Date:</span> 31 December Night 2023</div>
+                <div class="time"><span>Time:</span> Evening 7.30 pm to 12.30 am</div>
+                <button class="button-cls">Join Now</button>
+            </div>
+        </section>
+
+        <section class="best-offer">
+            <div class="best-offer-heading">
+                <h4 class="offer-heading">NEW BEST OFFER</h4>
+                <h2 class="offer another-heading">Coming Soon</h2>
+                <p class="more-about-heading">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.</p>
+            </div>
+            <div class="offer-image-section">
+                <fieldset class="offer-section-circle">
+                    <img src="Ellipse 1.png" alt="" class="offer-section-image">
+
+                </fieldset>
+            </div>
+            <div class="additional-info">
+                <h2 class="year">2024</h2>
+                <p class="additional-line">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed.</p>
+                <img src="Group 96.png.png" alt="" class="additional-imgage">
+            </div>
+
+        </section>
+        <section class="holiday-section">
+            <header class="holiday-header">
+                <h4 class="pri-holiday-header">
+                    WHAT IS FUNCTIONA
+                </h4>
+                <h2 class="main-holiday-section">
+                    <span class="holiday-color">Holidays</span> Sale 50%
+                </h2>
+                <p class="holiday-sale-info">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed 
+                    molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. Eleifend nunc purus quam id fermentum amet amet sit consectetur.</p>
+            </header>
+            <div class="holiday-image-section">
+                <div>
+                    <img src="Group 75.png" alt=""  class="gift-box">
+                </div>
+                <div>
+                    <img src="Group 44.png" alt="" class="discount-image">
+                </div>
+                <!-- <div class="girl-image">
+                    <img src="Rectangle 1.png" alt="">
+                </div> -->
+            </div>
+            <div class="background-img">
+            </div>
+
+        </section>
+        <section class="Portfolio-section">
+            <header class="protfolio-header">
+                <h4 class="portfolio-pri-header">THE BEST GIFTS</h4>
+                <h2 class="protfolio-main-header">Our Awesome Portfolio</h2>
+                <p class="more-about-portfolio">
+                    Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.
+                </p>
+            </header>
+            <div class="first-row">
+                <img src="Rectangle 3.png" alt="">
+                <img src="Rectangle 4.png" alt="">
+                <img src="Rectangle 5.png" alt="">
+            </div>
+            <div class="second-row">
+                <img src="Rectangle 6.png" alt="">
+                <img src="Rectangle 7.png" alt="" >
+                <img src="Rectangle 8.png" alt="">
+            </div>
+        </section>
+        <section class="subscribe-section">
+            <img src="Group 61.png.png" alt="" class="mail-image">
+            <h2 class="subscribe-title">
+                Subscribe Newsletter
+            </h2>
+            <p class="more-info">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.</p>
+
+            <span class="email-button-class">
+                <input type="email" class="input-class" placeholder="user@gmail.com">
+                <button class="subscribe-button">Subscribe</button>
+            </span>
+
+
+        </section>
+
+    </main>
+    <footer class="footer-cls">
+        <div class="footer-heading">
+            <div class="text"> 44, Big Building Roosevelt Street
+                Beach Gardens Florida 33410
+            </div>
+            <div class="contact">
+                <p class="mobile"><img src="Call.png.png" alt="">+00 123 584 124</p>
+            <p class="web-link"><img src="Website.png" alt="">www.website.com</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-link">
+            <a href=""><img src="Facebook.png" alt=""></a>
+            <a href=""><img src="Instagram.png" alt=""></a>
+            <a href=""><img src="Twitter.png" alt=""></a>
+            <a href=""><img src="Linkedin.png" alt=""></a>
+        </div>
+        <hr>
+        <div class="footer-copyright-claim">
+            <p class="copy-rignt">2017, All Rights Reserved</p>
+            <p class="Unsubscribe">Unsubscribe</p>
+
+        </div>
+    </footer>
+</body>
+</html>
